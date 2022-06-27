@@ -15,11 +15,11 @@ public class ConversãoTemperatura {
 		
 		//°C = (X - 32) * 5/9.0
 		for (int i=2; i>1; i++) {
-			System.out.println("Voce deseja converter:\n   1 - Fahrenheit para Celsius\n   2 - Celsius para Kelvin");
+			System.out.println("Você deseja converter:\n   1 - Fahrenheit para Celsius\n   2 - Celsius para Kelvin");
 			escolha = teclado.nextInt();
 			if (escolha == 1) {
 				System.out.println("Quantidade de Fahrenheit que deseja converter?");
-				System.out.println("A temperatura e: " + (((celsius = teclado.nextDouble()) - AJUSTE) * FATOR) + "C");
+				System.out.println("A temperatura e: " + (((celsius = teclado.nextDouble()) - AJUSTE) * FATOR) + "ºC");
 				System.out.println("Deseja fazer outra conversao?\nDigite 1 para sim e 2 para nao");
 				if((escolha=teclado.nextInt()) == 2) {
 					i =0;
